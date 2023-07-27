@@ -1,3 +1,5 @@
+import { archetypes } from "./index.mjs";
+
 export class Initialization extends Archetype {
 	preprocess() {
 		ui.menu.set({
@@ -9,6 +11,11 @@ export class Initialization extends Archetype {
 			horizontalAlign: HorizontalAlign.Center,
 			background: true,
 		});
+
+		// Call globalPreprocess on archetypes that define it
+		for (const archetype of Object.values(archetypes)) {
+			if ("globalPreprocess" in archetype) archetype.globalPreprocess();
+		}
 	}
 
 	spawnOrder() {

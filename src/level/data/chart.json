@@ -1,0 +1,2751 @@
+{
+	"bgmOffset": 0,
+	"entities": [
+		{ "archetype": "Initialization", "data": [] },
+		{ "archetype": "Stage", "data": [] },
+		{ "archetype": "InputManager", "data": [] },
+		{
+			"archetype": "#BPM_CHANGE",
+			"data": [
+				{ "name": "#BEAT", "value": 0 },
+				{ "name": "#BPM", "value": 60 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 0 },
+				{ "name": "endBeat", "value": 22.617792 },
+				{ "name": "pages", "value": 18 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 22.617792 },
+				{ "name": "endBeat", "value": 62.8272 },
+				{ "name": "pages", "value": 64 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 62.8272 },
+				{ "name": "endBeat", "value": 77.905728 },
+				{ "name": "pages", "value": 12 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 77.905728 },
+				{ "name": "endBeat", "value": 80.418816 },
+				{ "name": "pages", "value": 4 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 80.418816 },
+				{ "name": "endBeat", "value": 82.931904 },
+				{ "name": "pages", "value": 2 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 82.931904 },
+				{ "name": "endBeat", "value": 103.03660799999999 },
+				{ "name": "pages", "value": 32 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 103.03660799999999 },
+				{ "name": "endBeat", "value": 121.88476799999998 },
+				{ "name": "pages", "value": 15 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 121.88476799999998 },
+				{ "name": "endBeat", "value": 123.141312 },
+				{ "name": "pages", "value": 2 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 123.141312 },
+				{ "name": "endBeat", "value": 124.397856 },
+				{ "name": "pages", "value": 1 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 124.397856 },
+				{ "name": "endBeat", "value": 144.50256 },
+				{ "name": "pages", "value": 32 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 144.50256 },
+				{ "name": "endBeat", "value": 155.811456 },
+				{ "name": "pages", "value": 9 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 12.565439999999999 },
+				{ "name": "x", "value": 0.4000000059604645 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 13.193711999999998 },
+				{ "name": "x", "value": 0.30000001192092896 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 14.764391999999999 },
+				{ "name": "x", "value": 0.4000000059604645 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 14.869104 },
+				{ "name": "x", "value": 0.6000000238418579 },
+				{ "name": "y", "value": 0.8333333333333334 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 14.973161549999999 },
+				{ "name": "x", "value": 0.4000000059604645 },
+				{ "name": "y", "value": 0.9161458333333333 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 15.078527999999999 },
+				{ "name": "x", "value": 0.6000000238418579 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 15.7068 },
+				{ "name": "x", "value": 0.699999988079071 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 17.27748 },
+				{ "name": "x", "value": 0.6000000238418579 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 17.382192 },
+				{ "name": "x", "value": 0.4000000059604645 },
+				{ "name": "y", "value": 0.8333333333333334 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 17.48624955 },
+				{ "name": "x", "value": 0.6000000238418579 },
+				{ "name": "y", "value": 0.9161458333333333 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 17.591616 },
+				{ "name": "x", "value": 0.4000000059604645 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 18.219888 },
+				{ "name": "x", "value": 0.5 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 19.790568 },
+				{ "name": "x", "value": 0.4000000059604645 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 19.89528 },
+				{ "name": "x", "value": 0.6000000238418579 },
+				{ "name": "y", "value": 0.8333333333333334 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 19.99933755 },
+				{ "name": "x", "value": 0.4000000059604645 },
+				{ "name": "y", "value": 0.9161458333333333 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 20.104704 },
+				{ "name": "x", "value": 0.6000000238418579 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 20.732976 },
+				{ "name": "x", "value": 0.5 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 21.20418 },
+				{ "name": "x", "value": 0.30000001192092896 },
+				{ "name": "y", "value": 0.875 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 21.20418 },
+				{ "name": "x", "value": 0.699999988079071 },
+				{ "name": "y", "value": 0.875 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 21.361247999999996 },
+				{ "name": "x", "value": 0.20000000298023224 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 21.361247999999996 },
+				{ "name": "x", "value": 0.800000011920929 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 22.931928000000003 },
+				{ "name": "x", "value": 0.5 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 23.088995999999998 },
+				{ "name": "x", "value": 0.3499999940395355 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 23.088995999999998 },
+				{ "name": "x", "value": 0.6499999761581421 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 23.403132000000003 },
+				{ "name": "x", "value": 0.10000000149011612 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 23.403132000000003 },
+				{ "name": "x", "value": 0.8999999761581421 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 23.717268 },
+				{ "name": "x", "value": 0.20000000298023224 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 23.717268 },
+				{ "name": "x", "value": 0.800000011920929 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 24.031404 },
+				{ "name": "x", "value": 0.30000001192092896 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 24.031404 },
+				{ "name": "x", "value": 0.699999988079071 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 24.345539999999996 },
+				{ "name": "x", "value": 0.4000000059604645 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 24.345539999999996 },
+				{ "name": "x", "value": 0.6000000238418579 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 24.659675999999997 },
+				{ "name": "x", "value": 0.20000000298023224 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 25.445016 },
+				{ "name": "x", "value": 0.3499999940395355 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 25.602083999999998 },
+				{ "name": "x", "value": 0.3499999940395355 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 25.602083999999998 },
+				{ "name": "x", "value": 0.6499999761581421 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 25.91622 },
+				{ "name": "x", "value": 0.20000000298023224 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 25.91622 },
+				{ "name": "x", "value": 0.800000011920929 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 26.230355999999997 },
+				{ "name": "x", "value": 0.10000000149011612 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 26.230355999999997 },
+				{ "name": "x", "value": 0.8999999761581421 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 26.544491999999998 },
+				{ "name": "x", "value": 0.30000001192092896 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 26.544491999999998 },
+				{ "name": "x", "value": 0.699999988079071 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 26.858628 },
+				{ "name": "x", "value": 0.4000000059604645 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 26.858628 },
+				{ "name": "x", "value": 0.6000000238418579 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 27.172764000000004 },
+				{ "name": "x", "value": 0.10000000149011612 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 27.172764000000004 },
+				{ "name": "x", "value": 0.8999999761581421 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 27.4869 },
+				{ "name": "x", "value": 0.20000000298023224 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 27.4869 },
+				{ "name": "x", "value": 0.800000011920929 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 27.643967999999997 },
+				{ "name": "x", "value": 0.30000001192092896 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 27.643967999999997 },
+				{ "name": "x", "value": 0.699999988079071 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 28.429308 },
+				{ "name": "x", "value": 0.20000000298023224 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 28.586375999999998 },
+				{ "name": "x", "value": 0.800000011920929 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 28.743444 },
+				{ "name": "x", "value": 0.20000000298023224 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 29.057579999999994 },
+				{ "name": "x", "value": 0.6000000238418579 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 29.371715999999996 },
+				{ "name": "x", "value": 0.4000000059604645 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 29.685852 },
+				{ "name": "x", "value": 0.8500000238418579 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 29.842919999999996 },
+				{ "name": "x", "value": 0.15000000596046448 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 29.999988 },
+				{ "name": "x", "value": 0.800000011920929 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 30.942395999999995 },
+				{ "name": "x", "value": 0.8999999761581421 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 31.099464 },
+				{ "name": "x", "value": 0.10000000149011612 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 32.19894 },
+				{ "name": "x", "value": 0.800000011920929 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 32.98428 },
+				{ "name": "x", "value": 0.6499999761581421 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 33.141348 },
+				{ "name": "x", "value": 0.3499999940395355 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 33.141348 },
+				{ "name": "x", "value": 0.6499999761581421 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 33.455484 },
+				{ "name": "x", "value": 0.10000000149011612 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 33.455484 },
+				{ "name": "x", "value": 0.8999999761581421 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 33.76962 },
+				{ "name": "x", "value": 0.20000000298023224 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 33.76962 },
+				{ "name": "x", "value": 0.800000011920929 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 34.083756 },
+				{ "name": "x", "value": 0.30000001192092896 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 34.083756 },
+				{ "name": "x", "value": 0.699999988079071 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 34.39789199999999 },
+				{ "name": "x", "value": 0.4000000059604645 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 34.39789199999999 },
+				{ "name": "x", "value": 0.6000000238418579 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 35.497368 },
+				{ "name": "x", "value": 0.5 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 35.654436000000004 },
+				{ "name": "x", "value": 0.3499999940395355 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 35.654436000000004 },
+				{ "name": "x", "value": 0.6499999761581421 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 35.968571999999995 },
+				{ "name": "x", "value": 0.20000000298023224 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 35.968571999999995 },
+				{ "name": "x", "value": 0.800000011920929 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 36.28270799999999 },
+				{ "name": "x", "value": 0.10000000149011612 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 36.28270799999999 },
+				{ "name": "x", "value": 0.8999999761581421 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 36.596844 },
+				{ "name": "x", "value": 0.30000001192092896 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 36.596844 },
+				{ "name": "x", "value": 0.699999988079071 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 36.91098 },
+				{ "name": "x", "value": 0.4000000059604645 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 36.91098 },
+				{ "name": "x", "value": 0.6000000238418579 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 37.225116 },
+				{ "name": "x", "value": 0.10000000149011612 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 37.225116 },
+				{ "name": "x", "value": 0.8999999761581421 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 37.539252 },
+				{ "name": "x", "value": 0.20000000298023224 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 37.539252 },
+				{ "name": "x", "value": 0.800000011920929 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 38.48166 },
+				{ "name": "x", "value": 0.8999999761581421 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 38.638728 },
+				{ "name": "x", "value": 0.20000000298023224 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 39.738203999999996 },
+				{ "name": "x", "value": 0.30000001192092896 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 39.895272 },
+				{ "name": "x", "value": 0.699999988079071 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 45.235584 },
+				{ "name": "x", "value": 0.8999999761581421 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 46.020924 },
+				{ "name": "x", "value": 0.6000000238418579 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 50.261759999999995 },
+				{ "name": "x", "value": 0.10000000149011612 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 51.0471 },
+				{ "name": "x", "value": 0.4000000059604645 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 55.287935999999995 },
+				{ "name": "x", "value": 0.75 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 57.801024 },
+				{ "name": "x", "value": 0.6499999761581421 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 59.214636 },
+				{ "name": "x", "value": 0.4000000059604645 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 62.198928 },
+				{ "name": "x", "value": 0.8500000238418579 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 62.35599599999999 },
+				{ "name": "x", "value": 0.8500000238418579 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 62.670131999999995 },
+				{ "name": "x", "value": 0.8500000238418579 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 65.340288 },
+				{ "name": "x", "value": 0.699999988079071 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 67.225104 },
+				{ "name": "x", "value": 0.15000000596046448 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 67.853376 },
+				{ "name": "x", "value": 0.30000001192092896 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 69.424056 },
+				{ "name": "x", "value": 0.15000000596046448 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 70.366464 },
+				{ "name": "x", "value": 0.699999988079071 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 72.879552 },
+				{ "name": "x", "value": 0.6499999761581421 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 73.507824 },
+				{ "name": "x", "value": 0.6499999761581421 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 74.136096 },
+				{ "name": "x", "value": 0.800000011920929 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 74.764368 },
+				{ "name": "x", "value": 0.800000011920929 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 75.078504 },
+				{ "name": "x", "value": 0.75 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 75.39264 },
+				{ "name": "x", "value": 0.3499999940395355 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 75.70677599999999 },
+				{ "name": "x", "value": 0.4000000059604645 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 76.020912 },
+				{ "name": "x", "value": 0.3499999940395355 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 76.33504799999999 },
+				{ "name": "x", "value": 0.4000000059604645 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 76.649184 },
+				{ "name": "x", "value": 0.20000000298023224 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 76.96332 },
+				{ "name": "x", "value": 0.15000000596046448 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 77.277456 },
+				{ "name": "x", "value": 0.20000000298023224 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 77.591592 },
+				{ "name": "x", "value": 0.15000000596046448 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 77.905728 },
+				{ "name": "x", "value": 0.6499999761581421 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 78.06279599999999 },
+				{ "name": "x", "value": 0.3499999940395355 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 78.219864 },
+				{ "name": "x", "value": 0.6499999761581421 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 78.37693199999998 },
+				{ "name": "x", "value": 0.3499999940395355 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 78.534 },
+				{ "name": "x", "value": 0.8500000238418579 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 78.691068 },
+				{ "name": "x", "value": 0.15000000596046448 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 78.848136 },
+				{ "name": "x", "value": 0.8500000238418579 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 79.005204 },
+				{ "name": "x", "value": 0.15000000596046448 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 79.162272 },
+				{ "name": "x", "value": 0.699999988079071 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 79.26632955 },
+				{ "name": "x", "value": 0.30000001192092896 },
+				{ "name": "y", "value": 0.165625 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 79.37104155 },
+				{ "name": "x", "value": 0.6000000238418579 },
+				{ "name": "y", "value": 0.33229166666666665 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 79.47640799999999 },
+				{ "name": "x", "value": 0.4000000059604645 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 79.58112 },
+				{ "name": "x", "value": 0.699999988079071 },
+				{ "name": "y", "value": 0.6666666666666666 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 79.68583199999999 },
+				{ "name": "x", "value": 0.30000001192092896 },
+				{ "name": "y", "value": 0.8333333333333334 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 79.790544 },
+				{ "name": "x", "value": 0.800000011920929 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 79.89460155 },
+				{ "name": "x", "value": 0.20000000298023224 },
+				{ "name": "y", "value": 0.165625 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 79.99931355 },
+				{ "name": "x", "value": 0.8999999761581421 },
+				{ "name": "y", "value": 0.33229166666666665 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 80.10467999999999 },
+				{ "name": "x", "value": 0.10000000149011612 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 80.209392 },
+				{ "name": "x", "value": 0.800000011920929 },
+				{ "name": "y", "value": 0.6666666666666666 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 80.314104 },
+				{ "name": "x", "value": 0.20000000298023224 },
+				{ "name": "y", "value": 0.8333333333333334 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 82.14656399999998 },
+				{ "name": "x", "value": 0.5 },
+				{ "name": "y", "value": 0.375 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 82.931904 },
+				{ "name": "x", "value": 0.3499999940395355 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 84.18844800000001 },
+				{ "name": "x", "value": 0.25 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 84.502584 },
+				{ "name": "x", "value": 0.25 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 85.44499199999998 },
+				{ "name": "x", "value": 0.25 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 85.75912799999999 },
+				{ "name": "x", "value": 0.550000011920929 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 86.07326400000001 },
+				{ "name": "x", "value": 0.10000000149011612 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 87.801012 },
+				{ "name": "x", "value": 0.20000000298023224 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 87.95807999999998 },
+				{ "name": "x", "value": 0.3499999940395355 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 88.429284 },
+				{ "name": "x", "value": 0.3499999940395355 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 88.900488 },
+				{ "name": "x", "value": 0.800000011920929 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 89.214624 },
+				{ "name": "x", "value": 0.3499999940395355 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 89.52875999999999 },
+				{ "name": "x", "value": 0.6499999761581421 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 89.84289599999998 },
+				{ "name": "x", "value": 0.25 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 90.157032 },
+				{ "name": "x", "value": 0.9100000262260437 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 91.72771200000001 },
+				{ "name": "x", "value": 0.3499999940395355 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 91.72771200000001 },
+				{ "name": "x", "value": 0.6499999761581421 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 92.35598399999999 },
+				{ "name": "x", "value": 0.10000000149011612 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 92.51305199999999 },
+				{ "name": "x", "value": 0.8999999761581421 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 92.67012 },
+				{ "name": "x", "value": 0.20000000298023224 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 92.82718799999999 },
+				{ "name": "x", "value": 0.800000011920929 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 94.2408 },
+				{ "name": "x", "value": 0.75 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 94.554936 },
+				{ "name": "x", "value": 0.75 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 95.49734399999998 },
+				{ "name": "x", "value": 0.75 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 95.81148 },
+				{ "name": "x", "value": 0.44999998807907104 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 96.125616 },
+				{ "name": "x", "value": 0.8999999761581421 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 97.853364 },
+				{ "name": "x", "value": 0.800000011920929 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 98.01043200000001 },
+				{ "name": "x", "value": 0.6499999761581421 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 98.95284 },
+				{ "name": "x", "value": 0.800000011920929 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 99.26697599999999 },
+				{ "name": "x", "value": 0.6000000238418579 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 99.42404400000001 },
+				{ "name": "x", "value": 0.4000000059604645 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 99.581112 },
+				{ "name": "x", "value": 0.6499999761581421 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 99.73817999999999 },
+				{ "name": "x", "value": 0.3499999940395355 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 99.895248 },
+				{ "name": "x", "value": 0.800000011920929 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 100.05231599999999 },
+				{ "name": "x", "value": 0.20000000298023224 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 100.209384 },
+				{ "name": "x", "value": 0.8500000238418579 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 100.366452 },
+				{ "name": "x", "value": 0.15000000596046448 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 100.52351999999999 },
+				{ "name": "x", "value": 0.3499999940395355 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 100.52351999999999 },
+				{ "name": "x", "value": 0.6499999761581421 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 100.837656 },
+				{ "name": "x", "value": 0.4000000059604645 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 100.837656 },
+				{ "name": "x", "value": 0.6000000238418579 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 101.15179200000001 },
+				{ "name": "x", "value": 0.20000000298023224 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 101.15179200000001 },
+				{ "name": "x", "value": 0.800000011920929 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 101.46592799999999 },
+				{ "name": "x", "value": 0.15000000596046448 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 101.46592799999999 },
+				{ "name": "x", "value": 0.8500000238418579 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 101.780064 },
+				{ "name": "x", "value": 0.30000001192092896 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 101.88412154999999 },
+				{ "name": "x", "value": 0.699999988079071 },
+				{ "name": "y", "value": 0.165625 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 101.98883355 },
+				{ "name": "x", "value": 0.4000000059604645 },
+				{ "name": "y", "value": 0.33229166666666665 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 102.0942 },
+				{ "name": "x", "value": 0.6000000238418579 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 102.19891199999999 },
+				{ "name": "x", "value": 0.30000001192092896 },
+				{ "name": "y", "value": 0.6666666666666666 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 102.30362399999999 },
+				{ "name": "x", "value": 0.699999988079071 },
+				{ "name": "y", "value": 0.8333333333333334 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 102.40833599999999 },
+				{ "name": "x", "value": 0.20000000298023224 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 102.51239355 },
+				{ "name": "x", "value": 0.800000011920929 },
+				{ "name": "y", "value": 0.165625 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 102.61710554999999 },
+				{ "name": "x", "value": 0.10000000149011612 },
+				{ "name": "y", "value": 0.33229166666666665 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 102.72247199999998 },
+				{ "name": "x", "value": 0.8999999761581421 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 102.82718399999999 },
+				{ "name": "x", "value": 0.20000000298023224 },
+				{ "name": "y", "value": 0.6666666666666666 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 102.93189600000001 },
+				{ "name": "x", "value": 0.800000011920929 },
+				{ "name": "y", "value": 0.8333333333333334 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 104.92142399999999 },
+				{ "name": "x", "value": 0.8999999761581421 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 105.130848 },
+				{ "name": "x", "value": 0.8199999928474426 },
+				{ "name": "y", "value": 0.6666666666666666 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 105.34027199999998 },
+				{ "name": "x", "value": 0.7400000095367432 },
+				{ "name": "y", "value": 0.8333333333333334 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 105.54969599999998 },
+				{ "name": "x", "value": 0.6499999761581421 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 106.80623999999999 },
+				{ "name": "x", "value": 0.8999999761581421 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 108.062784 },
+				{ "name": "x", "value": 0.3499999940395355 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 109.319328 },
+				{ "name": "x", "value": 0.15000000596046448 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 109.9476 },
+				{ "name": "x", "value": 0.10000000149011612 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 110.157024 },
+				{ "name": "x", "value": 0.18000000715255737 },
+				{ "name": "y", "value": 0.6666666666666666 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 110.36644799999999 },
+				{ "name": "x", "value": 0.25999999046325684 },
+				{ "name": "y", "value": 0.8333333333333334 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 110.57587199999999 },
+				{ "name": "x", "value": 0.3499999940395355 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 111.204144 },
+				{ "name": "x", "value": 0.4000000059604645 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 113.08895999999999 },
+				{ "name": "x", "value": 0.6000000238418579 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 113.63869799999999 },
+				{ "name": "x", "value": 0.5 },
+				{ "name": "y", "value": 0.4375 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 113.87429999999999 },
+				{ "name": "x", "value": 0.550000011920929 },
+				{ "name": "y", "value": 0.625 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 114.188436 },
+				{ "name": "x", "value": 0.6499999761581421 },
+				{ "name": "y", "value": 0.875 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 114.973776 },
+				{ "name": "x", "value": 0.8500000238418579 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 115.602048 },
+				{ "name": "x", "value": 0.6499999761581421 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 116.23031999999998 },
+				{ "name": "x", "value": 0.30000001192092896 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 116.858592 },
+				{ "name": "x", "value": 0.8999999761581421 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 117.48686399999998 },
+				{ "name": "x", "value": 0.8500000238418579 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 118.11513599999999 },
+				{ "name": "x", "value": 0.3499999940395355 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 118.11513599999999 },
+				{ "name": "x", "value": 0.6499999761581421 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 118.429272 },
+				{ "name": "x", "value": 0.4000000059604645 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 118.429272 },
+				{ "name": "x", "value": 0.6000000238418579 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 118.743408 },
+				{ "name": "x", "value": 0.3499999940395355 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 118.90047599999998 },
+				{ "name": "x", "value": 0.6499999761581421 },
+				{ "name": "y", "value": 0.625 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 119.057544 },
+				{ "name": "x", "value": 0.4000000059604645 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 119.21461199999999 },
+				{ "name": "x", "value": 0.6000000238418579 },
+				{ "name": "y", "value": 0.875 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 119.37167999999998 },
+				{ "name": "x", "value": 0.20000000298023224 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 119.68581599999999 },
+				{ "name": "x", "value": 0.15000000596046448 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 119.68581599999999 },
+				{ "name": "x", "value": 0.800000011920929 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 119.999952 },
+				{ "name": "x", "value": 0.20000000298023224 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 120.31408800000001 },
+				{ "name": "x", "value": 0.15000000596046448 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 120.31408800000001 },
+				{ "name": "x", "value": 0.800000011920929 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 120.62822399999999 },
+				{ "name": "x", "value": 0.4000000059604645 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 120.62822399999999 },
+				{ "name": "x", "value": 0.6000000238418579 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 120.94236 },
+				{ "name": "x", "value": 0.3499999940395355 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 120.94236 },
+				{ "name": "x", "value": 0.6499999761581421 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 121.256496 },
+				{ "name": "x", "value": 0.6000000238418579 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 121.413564 },
+				{ "name": "x", "value": 0.4000000059604645 },
+				{ "name": "y", "value": 0.625 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 121.57063199999999 },
+				{ "name": "x", "value": 0.6499999761581421 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 121.7277 },
+				{ "name": "x", "value": 0.3499999940395355 },
+				{ "name": "y", "value": 0.875 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 121.88476799999998 },
+				{ "name": "x", "value": 0.8500000238418579 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 122.04183599999998 },
+				{ "name": "x", "value": 0.15000000596046448 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 122.198904 },
+				{ "name": "x", "value": 0.8500000238418579 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 122.355972 },
+				{ "name": "x", "value": 0.15000000596046448 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 122.51304 },
+				{ "name": "x", "value": 0.6499999761581421 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 122.591574 },
+				{ "name": "x", "value": 0.3499999940395355 },
+				{ "name": "y", "value": 0.125 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 122.670108 },
+				{ "name": "x", "value": 0.6000000238418579 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 122.748642 },
+				{ "name": "x", "value": 0.4000000059604645 },
+				{ "name": "y", "value": 0.375 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 122.827176 },
+				{ "name": "x", "value": 0.6499999761581421 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 122.90571 },
+				{ "name": "x", "value": 0.3499999940395355 },
+				{ "name": "y", "value": 0.625 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 122.984244 },
+				{ "name": "x", "value": 0.699999988079071 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 123.062778 },
+				{ "name": "x", "value": 0.30000001192092896 },
+				{ "name": "y", "value": 0.875 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 123.141312 },
+				{ "name": "x", "value": 0.75 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 124.397856 },
+				{ "name": "x", "value": 0.30000001192092896 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 124.397856 },
+				{ "name": "x", "value": 0.6499999761581421 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 124.71199199999998 },
+				{ "name": "x", "value": 0.699999988079071 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 124.86906 },
+				{ "name": "x", "value": 0.6000000238418579 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 125.18319599999998 },
+				{ "name": "x", "value": 0.15000000596046448 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 125.49733199999999 },
+				{ "name": "x", "value": 0.20000000298023224 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 125.811468 },
+				{ "name": "x", "value": 0.6000000238418579 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 126.12560400000001 },
+				{ "name": "x", "value": 0.6499999761581421 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 126.43973999999999 },
+				{ "name": "x", "value": 0.20000000298023224 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 126.596808 },
+				{ "name": "x", "value": 0.10000000149011612 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 126.91094399999999 },
+				{ "name": "x", "value": 0.6499999761581421 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 127.22507999999999 },
+				{ "name": "x", "value": 0.6000000238418579 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 127.38214799999999 },
+				{ "name": "x", "value": 0.6499999761581421 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 127.696284 },
+				{ "name": "x", "value": 0.20000000298023224 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 128.638692 },
+				{ "name": "x", "value": 0.3499999940395355 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 128.952828 },
+				{ "name": "x", "value": 0.800000011920929 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 129.42403199999998 },
+				{ "name": "x", "value": 0.3499999940395355 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 129.42403199999998 },
+				{ "name": "x", "value": 0.699999988079071 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 130.209372 },
+				{ "name": "x", "value": 0.800000011920929 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 130.36643999999998 },
+				{ "name": "x", "value": 0.8999999761581421 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 130.523508 },
+				{ "name": "x", "value": 0.800000011920929 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 130.83764399999998 },
+				{ "name": "x", "value": 0.3499999940395355 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 131.15178 },
+				{ "name": "x", "value": 0.4000000059604645 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 131.465916 },
+				{ "name": "x", "value": 0.800000011920929 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 131.622984 },
+				{ "name": "x", "value": 0.8999999761581421 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 133.66486799999998 },
+				{ "name": "x", "value": 0.6499999761581421 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 136.177956 },
+				{ "name": "x", "value": 0.4000000059604645 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 136.806228 },
+				{ "name": "x", "value": 0.8500000238418579 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 136.96329599999999 },
+				{ "name": "x", "value": 0.30000001192092896 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 137.277432 },
+				{ "name": "x", "value": 0.6000000238418579 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 137.59156799999997 },
+				{ "name": "x", "value": 0.20000000298023224 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 138.848112 },
+				{ "name": "x", "value": 0.75 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 140.261724 },
+				{ "name": "x", "value": 0.15000000596046448 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 140.261724 },
+				{ "name": "x", "value": 0.8500000238418579 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 140.57585999999998 },
+				{ "name": "x", "value": 0.10000000149011612 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 140.57585999999998 },
+				{ "name": "x", "value": 0.8999999761581421 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 141.51826799999998 },
+				{ "name": "x", "value": 0.10000000149011612 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 141.675336 },
+				{ "name": "x", "value": 0.8999999761581421 },
+				{ "name": "y", "value": 0.5 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 143.87428799999998 },
+				{ "name": "x", "value": 0.15000000596046448 },
+				{ "name": "y", "value": 0 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 144.031356 },
+				{ "name": "x", "value": 0.15000000596046448 },
+				{ "name": "y", "value": 0.25 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "TapNote",
+			"data": [
+				{ "name": "#BEAT", "value": 144.34549199999998 },
+				{ "name": "x", "value": 0.15000000596046448 },
+				{ "name": "y", "value": 0.75 },
+				{ "name": "direction", "value": -1 }
+			]
+		}
+	]
+}
