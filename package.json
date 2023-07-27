@@ -1,0 +1,32 @@
+{
+	"name": "sonolus-cytus-engine",
+	"version": "0.0.1",
+	"description": "Cytus engine for Sonolus",
+	"private": true,
+	"type": "module",
+	"main": "dist/index.cjs",
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"dev": "sonolus-cli --dev",
+		"type-check": "tsc -p . --noEmit",
+		"lint": "eslint --ext .ts ./src",
+		"lint-fix": "eslint --ext .ts ./src --fix",
+		"prebuild": "tsc -p . --noEmit && eslint --ext .mts ./src && eslint --ext .cts ./lib",
+		"build": "tsc -p ./lib/tsconfig.json && sonolus-cli --build && node ./lib/build.mjs"
+	},
+	"devDependencies": {
+		"@types/node": "^20.4.5",
+		"@typescript-eslint/eslint-plugin": "^6.2.0",
+		"@typescript-eslint/parser": "^6.2.0",
+		"eslint": "^8.45.0",
+		"eslint-config-prettier": "^8.9.0",
+		"eslint-plugin-prettier": "^5.0.0",
+		"prettier": "^3.0.0",
+		"prettier-plugin-organize-imports": "^3.2.3",
+		"sonolus-core": "~7.0.1",
+		"sonolus.js": "~9.0.2",
+		"typescript": "~5.1.6"
+	}
+}
