@@ -19,12 +19,12 @@ export function cytus2toLevelData(chart: Cytus2Source) {
 
 	// https://github.com/NonSpicyBurrito/sonolus-voez-engine/blob/6ab6fa91aedc2de57d806ad6a49527bd7e943d9c/lib/src/vc/convert.cts#LL64C8-L64C8
 	const addEntity = (archetype: string, data: Record<string, number | string>, ref?: string) => {
-		entities.push({
+		const length = entities.push({
 			archetype,
 			data: Object.entries(data).map(([k, v]) => (typeof v === "number" ? { name: k, value: v } : { name: k, ref: v })),
 		});
 
-		if (ref) entities[entities.length - 1].ref = ref;
+		if (ref) entities[length - 1].ref = ref;
 	};
 
 	// https://github.com/Cytoid/Cytoid/blob/e164f56b4894b70fcdcbdfae7bacb9de1c92d604/Assets/Scripts/Game/Chart/Chart.cs#L237
@@ -52,43 +52,13 @@ export function cytus2toLevelData(chart: Cytus2Source) {
 		[EngineArchetypeDataName.Bpm]: 60,
 	});
 
-	// Convert page list into scanline commands
-	const first = chart.page_list[0];
-
-	let dir = first.scan_line_direction;
-	let start = first.start_tick;
-	let pages = 0;
-	let interval = first.end_tick - first.start_tick;
-
-	for (const [i, page] of chart.page_list.entries()) {
-		// The first iteration will always just add 1 page, since interval is based off the first page
-		if (interval == page.end_tick - page.start_tick) {
-			pages++;
-			continue;
-		}
-
-		// Insert previous speed change
+	for (const page of chart.page_list) {
 		addEntity("ScanlineCommand", {
-			startBeat: tickToTime(start),
-			endBeat: tickToTime(chart.page_list[i - 1].end_tick),
-			pages: pages,
-			direction: dir,
+			startBeat: tickToTime(page.start_tick),
+			endBeat: tickToTime(page.end_tick),
+			direction: page.scan_line_direction,
 		});
-
-		// Update new values
-		dir = page.scan_line_direction;
-		start = page.start_tick;
-		pages = 1;
-		interval = page.end_tick - page.start_tick;
 	}
-
-	// Add last speed change
-	addEntity("ScanlineCommand", {
-		startBeat: tickToTime(start),
-		endBeat: tickToTime(chart.page_list[chart.page_list.length - 1].end_tick),
-		pages: pages,
-		direction: dir,
-	});
 
 	// Add notes
 	const unlerp = (min: number, max: number, value: number): number => (value - min) / (max - min);

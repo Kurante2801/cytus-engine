@@ -15,62 +15,1175 @@
 			"archetype": "ScanlineCommand",
 			"data": [
 				{ "name": "startBeat", "value": 0 },
-				{ "name": "endBeat", "value": 22.617792 },
-				{ "name": "pages", "value": 18 },
+				{ "name": "endBeat", "value": 1.256544 },
 				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 1.256544 },
+				{ "name": "endBeat", "value": 2.513088 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 2.513088 },
+				{ "name": "endBeat", "value": 3.7696319999999996 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 3.7696319999999996 },
+				{ "name": "endBeat", "value": 5.026176 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 5.026176 },
+				{ "name": "endBeat", "value": 6.282719999999999 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 6.282719999999999 },
+				{ "name": "endBeat", "value": 7.539263999999999 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 7.539263999999999 },
+				{ "name": "endBeat", "value": 8.795808 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 8.795808 },
+				{ "name": "endBeat", "value": 10.052352 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 10.052352 },
+				{ "name": "endBeat", "value": 11.308896 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 11.308896 },
+				{ "name": "endBeat", "value": 12.565439999999999 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 12.565439999999999 },
+				{ "name": "endBeat", "value": 13.821983999999999 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 13.821983999999999 },
+				{ "name": "endBeat", "value": 15.078527999999999 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 15.078527999999999 },
+				{ "name": "endBeat", "value": 16.335072 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 16.335072 },
+				{ "name": "endBeat", "value": 17.591616 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 17.591616 },
+				{ "name": "endBeat", "value": 18.84816 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 18.84816 },
+				{ "name": "endBeat", "value": 20.104704 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 20.104704 },
+				{ "name": "endBeat", "value": 21.361247999999996 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 21.361247999999996 },
+				{ "name": "endBeat", "value": 22.617792 },
+				{ "name": "direction", "value": -1 }
 			]
 		},
 		{
 			"archetype": "ScanlineCommand",
 			"data": [
 				{ "name": "startBeat", "value": 22.617792 },
-				{ "name": "endBeat", "value": 62.8272 },
-				{ "name": "pages", "value": 64 },
+				{ "name": "endBeat", "value": 23.246063999999997 },
 				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 23.246063999999997 },
+				{ "name": "endBeat", "value": 23.874335999999996 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 23.874335999999996 },
+				{ "name": "endBeat", "value": 24.502608000000002 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 24.502608000000002 },
+				{ "name": "endBeat", "value": 25.130879999999998 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 25.130879999999998 },
+				{ "name": "endBeat", "value": 25.759151999999997 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 25.759151999999997 },
+				{ "name": "endBeat", "value": 26.387423999999996 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 26.387423999999996 },
+				{ "name": "endBeat", "value": 27.015696 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 27.015696 },
+				{ "name": "endBeat", "value": 27.643967999999997 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 27.643967999999997 },
+				{ "name": "endBeat", "value": 28.272239999999996 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 28.272239999999996 },
+				{ "name": "endBeat", "value": 28.900512 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 28.900512 },
+				{ "name": "endBeat", "value": 29.528783999999998 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 29.528783999999998 },
+				{ "name": "endBeat", "value": 30.157055999999997 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 30.157055999999997 },
+				{ "name": "endBeat", "value": 30.785328 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 30.785328 },
+				{ "name": "endBeat", "value": 31.4136 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 31.4136 },
+				{ "name": "endBeat", "value": 32.041872 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 32.041872 },
+				{ "name": "endBeat", "value": 32.670144 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 32.670144 },
+				{ "name": "endBeat", "value": 33.298415999999996 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 33.298415999999996 },
+				{ "name": "endBeat", "value": 33.926688 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 33.926688 },
+				{ "name": "endBeat", "value": 34.55496 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 34.55496 },
+				{ "name": "endBeat", "value": 35.183232 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 35.183232 },
+				{ "name": "endBeat", "value": 35.811504 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 35.811504 },
+				{ "name": "endBeat", "value": 36.439776 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 36.439776 },
+				{ "name": "endBeat", "value": 37.068048 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 37.068048 },
+				{ "name": "endBeat", "value": 37.69632 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 37.69632 },
+				{ "name": "endBeat", "value": 38.324592 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 38.324592 },
+				{ "name": "endBeat", "value": 38.952864 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 38.952864 },
+				{ "name": "endBeat", "value": 39.581136 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 39.581136 },
+				{ "name": "endBeat", "value": 40.209408 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 40.209408 },
+				{ "name": "endBeat", "value": 40.83768 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 40.83768 },
+				{ "name": "endBeat", "value": 41.465952 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 41.465952 },
+				{ "name": "endBeat", "value": 42.094224000000004 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 42.094224000000004 },
+				{ "name": "endBeat", "value": 42.72249599999999 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 42.72249599999999 },
+				{ "name": "endBeat", "value": 43.350767999999995 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 43.350767999999995 },
+				{ "name": "endBeat", "value": 43.97903999999999 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 43.97903999999999 },
+				{ "name": "endBeat", "value": 44.607312 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 44.607312 },
+				{ "name": "endBeat", "value": 45.235584 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 45.235584 },
+				{ "name": "endBeat", "value": 45.863856000000006 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 45.863856000000006 },
+				{ "name": "endBeat", "value": 46.492127999999994 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 46.492127999999994 },
+				{ "name": "endBeat", "value": 47.1204 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 47.1204 },
+				{ "name": "endBeat", "value": 47.74867199999999 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 47.74867199999999 },
+				{ "name": "endBeat", "value": 48.376944 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 48.376944 },
+				{ "name": "endBeat", "value": 49.005216000000004 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 49.005216000000004 },
+				{ "name": "endBeat", "value": 49.63348799999999 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 49.63348799999999 },
+				{ "name": "endBeat", "value": 50.261759999999995 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 50.261759999999995 },
+				{ "name": "endBeat", "value": 50.890032 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 50.890032 },
+				{ "name": "endBeat", "value": 51.51830399999999 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 51.51830399999999 },
+				{ "name": "endBeat", "value": 52.146575999999996 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 52.146575999999996 },
+				{ "name": "endBeat", "value": 52.77484799999999 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 52.77484799999999 },
+				{ "name": "endBeat", "value": 53.403119999999994 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 53.403119999999994 },
+				{ "name": "endBeat", "value": 54.031392 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 54.031392 },
+				{ "name": "endBeat", "value": 54.659664 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 54.659664 },
+				{ "name": "endBeat", "value": 55.287935999999995 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 55.287935999999995 },
+				{ "name": "endBeat", "value": 55.916208 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 55.916208 },
+				{ "name": "endBeat", "value": 56.54447999999999 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 56.54447999999999 },
+				{ "name": "endBeat", "value": 57.172751999999996 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 57.172751999999996 },
+				{ "name": "endBeat", "value": 57.801024 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 57.801024 },
+				{ "name": "endBeat", "value": 58.429296 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 58.429296 },
+				{ "name": "endBeat", "value": 59.057567999999996 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 59.057567999999996 },
+				{ "name": "endBeat", "value": 59.68583999999999 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 59.68583999999999 },
+				{ "name": "endBeat", "value": 60.314111999999994 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 60.314111999999994 },
+				{ "name": "endBeat", "value": 60.94238399999999 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 60.94238399999999 },
+				{ "name": "endBeat", "value": 61.570656 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 61.570656 },
+				{ "name": "endBeat", "value": 62.198928 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 62.198928 },
+				{ "name": "endBeat", "value": 62.8272 },
+				{ "name": "direction", "value": -1 }
 			]
 		},
 		{
 			"archetype": "ScanlineCommand",
 			"data": [
 				{ "name": "startBeat", "value": 62.8272 },
-				{ "name": "endBeat", "value": 77.905728 },
-				{ "name": "pages", "value": 12 },
+				{ "name": "endBeat", "value": 64.083744 },
 				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 64.083744 },
+				{ "name": "endBeat", "value": 65.340288 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 65.340288 },
+				{ "name": "endBeat", "value": 66.59683199999999 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 66.59683199999999 },
+				{ "name": "endBeat", "value": 67.853376 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 67.853376 },
+				{ "name": "endBeat", "value": 69.10992 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 69.10992 },
+				{ "name": "endBeat", "value": 70.366464 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 70.366464 },
+				{ "name": "endBeat", "value": 71.623008 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 71.623008 },
+				{ "name": "endBeat", "value": 72.879552 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 72.879552 },
+				{ "name": "endBeat", "value": 74.136096 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 74.136096 },
+				{ "name": "endBeat", "value": 75.39264 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 75.39264 },
+				{ "name": "endBeat", "value": 76.649184 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 76.649184 },
+				{ "name": "endBeat", "value": 77.905728 },
+				{ "name": "direction", "value": -1 }
 			]
 		},
 		{
 			"archetype": "ScanlineCommand",
 			"data": [
 				{ "name": "startBeat", "value": 77.905728 },
-				{ "name": "endBeat", "value": 80.418816 },
-				{ "name": "pages", "value": 4 },
+				{ "name": "endBeat", "value": 78.534 },
 				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 78.534 },
+				{ "name": "endBeat", "value": 79.162272 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 79.162272 },
+				{ "name": "endBeat", "value": 79.790544 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 79.790544 },
+				{ "name": "endBeat", "value": 80.418816 },
+				{ "name": "direction", "value": -1 }
 			]
 		},
 		{
 			"archetype": "ScanlineCommand",
 			"data": [
 				{ "name": "startBeat", "value": 80.418816 },
-				{ "name": "endBeat", "value": 82.931904 },
-				{ "name": "pages", "value": 2 },
+				{ "name": "endBeat", "value": 81.67536 },
 				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 81.67536 },
+				{ "name": "endBeat", "value": 82.931904 },
+				{ "name": "direction", "value": -1 }
 			]
 		},
 		{
 			"archetype": "ScanlineCommand",
 			"data": [
 				{ "name": "startBeat", "value": 82.931904 },
-				{ "name": "endBeat", "value": 103.03660799999999 },
-				{ "name": "pages", "value": 32 },
+				{ "name": "endBeat", "value": 83.56017599999998 },
 				{ "name": "direction", "value": 1 }
 			]
 		},
 		{
 			"archetype": "ScanlineCommand",
 			"data": [
+				{ "name": "startBeat", "value": 83.56017599999998 },
+				{ "name": "endBeat", "value": 84.18844800000001 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 84.18844800000001 },
+				{ "name": "endBeat", "value": 84.81672 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 84.81672 },
+				{ "name": "endBeat", "value": 85.44499199999998 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 85.44499199999998 },
+				{ "name": "endBeat", "value": 86.07326400000001 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 86.07326400000001 },
+				{ "name": "endBeat", "value": 86.70153599999999 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 86.70153599999999 },
+				{ "name": "endBeat", "value": 87.329808 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 87.329808 },
+				{ "name": "endBeat", "value": 87.95807999999998 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 87.95807999999998 },
+				{ "name": "endBeat", "value": 88.58635199999999 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 88.58635199999999 },
+				{ "name": "endBeat", "value": 89.214624 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 89.214624 },
+				{ "name": "endBeat", "value": 89.84289599999998 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 89.84289599999998 },
+				{ "name": "endBeat", "value": 90.471168 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 90.471168 },
+				{ "name": "endBeat", "value": 91.09943999999999 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 91.09943999999999 },
+				{ "name": "endBeat", "value": 91.72771200000001 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 91.72771200000001 },
+				{ "name": "endBeat", "value": 92.35598399999999 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 92.35598399999999 },
+				{ "name": "endBeat", "value": 92.98425599999999 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 92.98425599999999 },
+				{ "name": "endBeat", "value": 93.61252800000001 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 93.61252800000001 },
+				{ "name": "endBeat", "value": 94.2408 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 94.2408 },
+				{ "name": "endBeat", "value": 94.869072 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 94.869072 },
+				{ "name": "endBeat", "value": 95.49734399999998 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 95.49734399999998 },
+				{ "name": "endBeat", "value": 96.125616 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 96.125616 },
+				{ "name": "endBeat", "value": 96.753888 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 96.753888 },
+				{ "name": "endBeat", "value": 97.38215999999998 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 97.38215999999998 },
+				{ "name": "endBeat", "value": 98.01043200000001 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 98.01043200000001 },
+				{ "name": "endBeat", "value": 98.63870399999999 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 98.63870399999999 },
+				{ "name": "endBeat", "value": 99.26697599999999 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 99.26697599999999 },
+				{ "name": "endBeat", "value": 99.895248 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 99.895248 },
+				{ "name": "endBeat", "value": 100.52351999999999 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 100.52351999999999 },
+				{ "name": "endBeat", "value": 101.15179200000001 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 101.15179200000001 },
+				{ "name": "endBeat", "value": 101.780064 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 101.780064 },
+				{ "name": "endBeat", "value": 102.40833599999999 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 102.40833599999999 },
+				{ "name": "endBeat", "value": 103.03660799999999 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
 				{ "name": "startBeat", "value": 103.03660799999999 },
+				{ "name": "endBeat", "value": 104.29315199999999 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 104.29315199999999 },
+				{ "name": "endBeat", "value": 105.54969599999998 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 105.54969599999998 },
+				{ "name": "endBeat", "value": 106.80623999999999 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 106.80623999999999 },
+				{ "name": "endBeat", "value": 108.062784 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 108.062784 },
+				{ "name": "endBeat", "value": 109.319328 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 109.319328 },
+				{ "name": "endBeat", "value": 110.57587199999999 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 110.57587199999999 },
+				{ "name": "endBeat", "value": 111.832416 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 111.832416 },
+				{ "name": "endBeat", "value": 113.08895999999999 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 113.08895999999999 },
+				{ "name": "endBeat", "value": 114.34550399999999 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 114.34550399999999 },
+				{ "name": "endBeat", "value": 115.602048 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 115.602048 },
+				{ "name": "endBeat", "value": 116.858592 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 116.858592 },
+				{ "name": "endBeat", "value": 118.11513599999999 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 118.11513599999999 },
+				{ "name": "endBeat", "value": 119.37167999999998 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 119.37167999999998 },
+				{ "name": "endBeat", "value": 120.62822399999999 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 120.62822399999999 },
 				{ "name": "endBeat", "value": 121.88476799999998 },
-				{ "name": "pages", "value": 15 },
 				{ "name": "direction", "value": 1 }
 			]
 		},
@@ -78,9 +1191,16 @@
 			"archetype": "ScanlineCommand",
 			"data": [
 				{ "name": "startBeat", "value": 121.88476799999998 },
-				{ "name": "endBeat", "value": 123.141312 },
-				{ "name": "pages", "value": 2 },
+				{ "name": "endBeat", "value": 122.51304 },
 				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 122.51304 },
+				{ "name": "endBeat", "value": 123.141312 },
+				{ "name": "direction", "value": 1 }
 			]
 		},
 		{
@@ -88,7 +1208,6 @@
 			"data": [
 				{ "name": "startBeat", "value": 123.141312 },
 				{ "name": "endBeat", "value": 124.397856 },
-				{ "name": "pages", "value": 1 },
 				{ "name": "direction", "value": -1 }
 			]
 		},
@@ -96,17 +1215,327 @@
 			"archetype": "ScanlineCommand",
 			"data": [
 				{ "name": "startBeat", "value": 124.397856 },
-				{ "name": "endBeat", "value": 144.50256 },
-				{ "name": "pages", "value": 32 },
+				{ "name": "endBeat", "value": 125.02612799999999 },
 				{ "name": "direction", "value": 1 }
 			]
 		},
 		{
 			"archetype": "ScanlineCommand",
 			"data": [
+				{ "name": "startBeat", "value": 125.02612799999999 },
+				{ "name": "endBeat", "value": 125.6544 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 125.6544 },
+				{ "name": "endBeat", "value": 126.282672 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 126.282672 },
+				{ "name": "endBeat", "value": 126.91094399999999 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 126.91094399999999 },
+				{ "name": "endBeat", "value": 127.539216 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 127.539216 },
+				{ "name": "endBeat", "value": 128.167488 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 128.167488 },
+				{ "name": "endBeat", "value": 128.79576 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 128.79576 },
+				{ "name": "endBeat", "value": 129.42403199999998 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 129.42403199999998 },
+				{ "name": "endBeat", "value": 130.052304 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 130.052304 },
+				{ "name": "endBeat", "value": 130.680576 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 130.680576 },
+				{ "name": "endBeat", "value": 131.30884799999998 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 131.30884799999998 },
+				{ "name": "endBeat", "value": 131.93712 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 131.93712 },
+				{ "name": "endBeat", "value": 132.565392 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 132.565392 },
+				{ "name": "endBeat", "value": 133.19366399999998 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 133.19366399999998 },
+				{ "name": "endBeat", "value": 133.821936 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 133.821936 },
+				{ "name": "endBeat", "value": 134.450208 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 134.450208 },
+				{ "name": "endBeat", "value": 135.07848 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 135.07848 },
+				{ "name": "endBeat", "value": 135.706752 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 135.706752 },
+				{ "name": "endBeat", "value": 136.335024 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 136.335024 },
+				{ "name": "endBeat", "value": 136.96329599999999 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 136.96329599999999 },
+				{ "name": "endBeat", "value": 137.59156799999997 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 137.59156799999997 },
+				{ "name": "endBeat", "value": 138.21984 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 138.21984 },
+				{ "name": "endBeat", "value": 138.848112 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 138.848112 },
+				{ "name": "endBeat", "value": 139.476384 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 139.476384 },
+				{ "name": "endBeat", "value": 140.104656 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 140.104656 },
+				{ "name": "endBeat", "value": 140.732928 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 140.732928 },
+				{ "name": "endBeat", "value": 141.3612 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 141.3612 },
+				{ "name": "endBeat", "value": 141.989472 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 141.989472 },
+				{ "name": "endBeat", "value": 142.61774400000002 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 142.61774400000002 },
+				{ "name": "endBeat", "value": 143.246016 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 143.246016 },
+				{ "name": "endBeat", "value": 143.87428799999998 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 143.87428799999998 },
+				{ "name": "endBeat", "value": 144.50256 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
 				{ "name": "startBeat", "value": 144.50256 },
+				{ "name": "endBeat", "value": 145.759104 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 145.759104 },
+				{ "name": "endBeat", "value": 147.015648 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 147.015648 },
+				{ "name": "endBeat", "value": 148.272192 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 148.272192 },
+				{ "name": "endBeat", "value": 149.528736 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 149.528736 },
+				{ "name": "endBeat", "value": 150.78528 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 150.78528 },
+				{ "name": "endBeat", "value": 152.041824 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 152.041824 },
+				{ "name": "endBeat", "value": 153.298368 },
+				{ "name": "direction", "value": 1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 153.298368 },
+				{ "name": "endBeat", "value": 154.554912 },
+				{ "name": "direction", "value": -1 }
+			]
+		},
+		{
+			"archetype": "ScanlineCommand",
+			"data": [
+				{ "name": "startBeat", "value": 154.554912 },
 				{ "name": "endBeat", "value": 155.811456 },
-				{ "name": "pages", "value": 9 },
 				{ "name": "direction", "value": 1 }
 			]
 		},
