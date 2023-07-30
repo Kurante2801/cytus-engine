@@ -1,13 +1,15 @@
 import { buckets } from "../../buckets.mjs";
 import { Direction, noteRadius } from "../../constants.mjs";
-import { note } from "../../shared.mjs";
 import { skin } from "../../skin.mjs";
 import { windows } from "../../windows.mjs";
-import { Note } from "./Note.mjs";
+import { Note, NoteType } from "./Note.mjs";
+import { particle } from "../../particle.mjs";
 
 export class TapNote extends Note {
 	bucket = buckets.tap;
 	windows = windows.tap;
+	effect = particle.effects.tap;
+	type = NoteType.TAP;
 
 	preprocess(): void {
 		super.preprocess();

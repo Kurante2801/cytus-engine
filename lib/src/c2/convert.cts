@@ -1,5 +1,5 @@
 import { EngineArchetypeDataName, EngineArchetypeName, LevelDataEntity } from "sonolus-core";
-import { Cytus2Source } from "./index.cjs";
+import { Cytus2Source, Note } from "./index.cjs";
 
 export function cytus2toLevelData(chart: Cytus2Source) {
 	const entities: LevelDataEntity[] = [
@@ -93,6 +93,17 @@ export function cytus2toLevelData(chart: Cytus2Source) {
 	// Add notes
 	const unlerp = (min: number, max: number, value: number): number => (value - min) / (max - min);
 
+	// https://github.com/Cytoid/Cytoid/blob/e164f56b4894b70fcdcbdfae7bacb9de1c92d604/Assets/Scripts/Game/Chart/Chart.cs#L282
+	const calculateNoteSpeed = (note: Note) => {
+		const page = chart.page_list[note.page_index];
+		const previous = chart.page_list[note.page_index - 1];
+		const pageRatio = (1 * (note.tick - page.start_tick)) / (page.end_tick - page.start_tick);
+		const tempo =
+			tickToTime(page.end_tick - page.start_tick) * pageRatio +
+			tickToTime(previous.end_tick - previous.start_tick) * (1.367 - pageRatio);
+		return tempo >= 1.367 ? 1 : 1.367 / tempo;
+	};
+
 	const types = ["TapNote"];
 
 	for (const note of chart.note_list) {
@@ -106,6 +117,7 @@ export function cytus2toLevelData(chart: Cytus2Source) {
 			x: note.x,
 			y: unlerp(page.start_tick, page.end_tick, note.tick),
 			direction: page.scan_line_direction,
+			speed: note.page_index == 0 ? 1 : calculateNoteSpeed(note),
 		};
 
 		addEntity(types[note.type], data, ref);

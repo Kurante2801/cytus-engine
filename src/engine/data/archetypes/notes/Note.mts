@@ -6,10 +6,15 @@ import { skin } from "../../skin.mjs";
 import { markAsUsed } from "../InputManager.mjs";
 import { effect } from "../../effect.mjs";
 
+export enum NoteType {
+	TAP,
+}
+
 export abstract class Note extends Archetype {
 	hasInput = true;
 	touchOrder = 1;
 
+	abstract type: NoteType;
 	abstract bucket: Bucket;
 	abstract windows: JudgmentWindows;
 
@@ -22,6 +27,7 @@ export abstract class Note extends Archetype {
 		x: { name: "x", type: Number }, // [0 - 1] range (left to right)
 		y: { name: "y", type: Number }, // [0 - 1] range (depends on direction)
 		direction: { name: "direction", type: DataType<Direction> },
+		speed: { name: "speed", type: Number },
 	});
 
 	times = this.entityMemory({
@@ -53,7 +59,8 @@ export abstract class Note extends Archetype {
 
 	preprocess(): void {
 		this.times.target = bpmChanges.at(this.data.beat).time;
-		animTimes(this.times, this.windows);
+
+		animTimes(this.type, this.data.speed, this.times, this.windows);
 
 		if (options.mirrorY) this.data.direction *= -1;
 
@@ -144,7 +151,9 @@ export abstract class Note extends Archetype {
 		return dist <= noteRadius;
 	}
 
+	/* eslint-disable */
 	particleEffects(judgement: Judgment): void {
+		/* eslint-enable */
 		// TODO
 	}
 

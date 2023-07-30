@@ -1,3 +1,4 @@
+import { NoteType } from "./archetypes/notes/Note.mjs";
 import { Direction } from "./constants.mjs";
 import { scanline } from "./shared.mjs";
 
@@ -21,6 +22,8 @@ export function bounce(t: number): number {
 }
 
 export function animTimes(
+	_: NoteType,
+	speed: number,
 	data: {
 		spawn: number;
 		target: number;
@@ -29,10 +32,11 @@ export function animTimes(
 	},
 	windows: JudgmentWindows,
 ) {
-	data.spawn = data.target - 1.34;
+	// TODO: if drag head/child: 1.175f / speed
+	data.spawn = data.target - 1.367 / speed;
 
 	data.alpha.start = data.spawn;
-	data.alpha.end = data.target + windows.good.min;
+	data.alpha.end = data.target + windows.perfect.min;
 
 	data.scale.start = data.target - 3.0;
 	data.scale.end = data.target + windows.great.min;
