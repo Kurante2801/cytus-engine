@@ -74,7 +74,7 @@ export function cytus2toLevelData(chart: Cytus2Source) {
 		return tempo >= 1.367 ? 1 : 1.367 / tempo;
 	};
 
-	const types = ["TapNote", "HoldStartNote"];
+	const types = ["TapNote", "HoldStartNote", "LongHoldStartNote"];
 
 	for (const note of chart.note_list) {
 		if (note.page_index >= chart.page_list.length || !(note.type in types)) continue;
@@ -91,10 +91,10 @@ export function cytus2toLevelData(chart: Cytus2Source) {
 		};
 
 		// Spawn a hold end note
-		if (note.type == NoteType.HOLD) {
+		if (note.type == NoteType.HOLD || note.type == NoteType.HOLD_LONG) {
 			ref = note.id.toString();
 
-			addEntity("HoldEndNote", {
+			addEntity(note.type == NoteType.HOLD ? "HoldEndNote" : "LongHoldEndNote", {
 				[EngineArchetypeDataName.Beat]: tickToTime(note.tick + note.hold_tick),
 				x: note.x,
 				y: unlerp(page.start_tick, page.end_tick, note.tick + note.hold_tick),

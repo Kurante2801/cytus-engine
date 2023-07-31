@@ -11,7 +11,12 @@ export const skin = defineSkin({
 		holdUp: "Cytus Hold Up",
 		holdDown: "Cytus Hold Down",
 		holdFallback: SkinSpriteName.NoteHeadRed,
-
 		holdBar: SkinSpriteName.NoteConnectionNeutral,
+
+		longHold: "Cytus Long Hold",
+		longHoldFallback: SkinSpriteName.NoteHeadYellow,
+
+		longHoldBar: "Cytus Long Hold Bar",
+		longHoldBarFallback: SkinSpriteName.NoteConnectionYellow,
 	},
 });

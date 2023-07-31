@@ -7,7 +7,7 @@ import { windows } from "../../../windows.mjs";
 import { Note, NoteType } from "../Note.mjs";
 
 export class HoldStartNote extends Note {
-	bucket = buckets.hold;
+	bucket = buckets.holdStart;
 	windows = windows.holdStart;
 	effect = particle.effects.hold;
 	type = NoteType.HOLD_START;

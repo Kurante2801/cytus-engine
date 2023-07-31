@@ -18,3 +18,4 @@ export const noteRadius = 0.3125;
 export const minSFXDistance = 0.02;
 
 export const holdBarWidth = 0.1;
+export const longHoldBarWidth = 0.15;

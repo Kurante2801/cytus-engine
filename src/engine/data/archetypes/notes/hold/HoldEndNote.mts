@@ -13,7 +13,7 @@ export class HoldEndNote extends Note {
 		startRef: { name: "startRef", type: Number },
 	});
 
-	bucket = buckets.hold;
+	bucket = buckets.holdStart;
 	windows = windows.holdEnd;
 	effect = particle.effects.hold;
 	type = NoteType.HOLD_END;
@@ -75,7 +75,10 @@ export class HoldEndNote extends Note {
 	draw(): void {
 		// Draw starting note after target (because starting note despawns after being judged)
 		if (time.now >= this.startTarget) super.draw();
+		this.drawBar();
+	}
 
+	drawBar(): void {
 		const alpha = Math.min(1, Math.unlerp(this.times.alpha.start, this.times.alpha.end, time.now));
 		const tall = Math.min(1, Math.unlerp(this.times.scale.start, this.times.scale.end, time.now));
 
