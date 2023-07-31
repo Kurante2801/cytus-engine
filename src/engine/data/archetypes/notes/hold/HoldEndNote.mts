@@ -1,6 +1,6 @@
 import { options } from "../../../../configuration/options.mjs";
 import { buckets } from "../../../buckets.mjs";
-import { Direction, Layer, holdBarWidth, noteRadius } from "../../../constants.mjs";
+import { Direction, Layer, holdBarWidth, holdIndicatorRadius, maxDegree, noteRadius } from "../../../constants.mjs";
 import { particle } from "../../../particle.mjs";
 import { skin } from "../../../skin.mjs";
 import { animTimes, getY, getZ } from "../../../util.mjs";
@@ -21,6 +21,7 @@ export class HoldEndNote extends Note {
 	startTarget = this.entityMemory(Number);
 	bar = this.entityMemory({ y: Number, z: Number });
 	touched = this.entityMemory(Boolean);
+	indicator = this.entityMemory(SkinSpriteId);
 
 	preprocess(): void {
 		super.preprocess();
@@ -44,6 +45,9 @@ export class HoldEndNote extends Note {
 		this.times.target = this.startTarget;
 		animTimes(this.type, start.speed, this.times, this.windows);
 		this.times.target = target;
+
+		// It doesn't matter if hold indicator doesn't exist, it will just not get drawn
+		this.indicator = this.data.direction === Direction.Up ? skin.sprites.holdIndicatorUp.id : skin.sprites.holdIndicatorDown.id;
 	}
 
 	updateSequential(): void {
@@ -76,6 +80,32 @@ export class HoldEndNote extends Note {
 		// Draw starting note after target (because starting note despawns after being judged)
 		if (time.now >= this.startTarget) super.draw();
 		this.drawBar();
+
+		// Draw hold indicator
+		if (this.startInfo.state !== EntityState.Despawned) return;
+
+		const layout = new Rect({
+			l: this.pos.x - holdIndicatorRadius,
+			r: this.pos.x + holdIndicatorRadius,
+			t: this.pos.y + holdIndicatorRadius,
+			b: this.pos.y - holdIndicatorRadius,
+		});
+
+		skin.sprites.holdIndicatorBackground.draw(layout, this.pos.z, 1);
+		skin.sprites.draw(this.indicator, layout, this.pos.z, 1);
+
+		const t = Math.unlerp(this.times.target, this.startTarget, time.now);
+		const rotatedLayout = new Rect({
+			l: -holdIndicatorRadius,
+			r: holdIndicatorRadius,
+			t: holdIndicatorRadius,
+			b: -holdIndicatorRadius,
+		})
+			.toQuad()
+			.rotate(t * maxDegree)
+			.translate(this.pos.x, this.pos.y);
+
+		skin.sprites.draw(this.indicator, rotatedLayout, this.pos.z, 1);
 	}
 
 	drawBar(): void {

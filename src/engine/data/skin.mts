@@ -18,5 +18,10 @@ export const skin = defineSkin({
 
 		longHoldBar: "Cytus Long Hold Bar",
 		longHoldBarFallback: SkinSpriteName.NoteConnectionYellow,
+
+		holdIndicatorBackground: "Cytus Hold Indicator Background",
+		holdIndicatorUp: "Cytus Hold Indicator Up",
+		holdIndicatorDown: "Cytus Hold Indicator Down",
+		longHoldIndicator: "Cytus Long Hold Indicator",
 	},
 });
