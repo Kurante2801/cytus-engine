@@ -8,6 +8,8 @@ import { effect } from "../../effect.mjs";
 
 export enum NoteType {
 	TAP,
+	HOLD_START,
+	HOLD_END,
 }
 
 export abstract class Note extends Archetype {

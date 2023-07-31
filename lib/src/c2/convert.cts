@@ -1,5 +1,5 @@
 import { EngineArchetypeDataName, EngineArchetypeName, LevelDataEntity } from "sonolus-core";
-import { Cytus2Source, Note } from "./index.cjs";
+import { Cytus2Source, Note, NoteType } from "./index.cjs";
 
 export function cytus2toLevelData(chart: Cytus2Source) {
 	const entities: LevelDataEntity[] = [
@@ -74,13 +74,13 @@ export function cytus2toLevelData(chart: Cytus2Source) {
 		return tempo >= 1.367 ? 1 : 1.367 / tempo;
 	};
 
-	const types = ["TapNote"];
+	const types = ["TapNote", "HoldStartNote"];
 
 	for (const note of chart.note_list) {
 		if (note.page_index >= chart.page_list.length || !(note.type in types)) continue;
 		const page = chart.page_list[note.page_index];
 
-		const ref: undefined | string = undefined;
+		let ref: undefined | string = undefined;
 
 		const data: Record<string, string | number> = {
 			[EngineArchetypeDataName.Beat]: tickToTime(note.tick),
@@ -89,6 +89,19 @@ export function cytus2toLevelData(chart: Cytus2Source) {
 			direction: page.scan_line_direction,
 			speed: note.page_index == 0 ? 1 : calculateNoteSpeed(note),
 		};
+
+		// Spawn a hold end note
+		if (note.type == NoteType.HOLD) {
+			ref = note.id.toString();
+
+			addEntity("HoldEndNote", {
+				[EngineArchetypeDataName.Beat]: tickToTime(note.tick + note.hold_tick),
+				x: note.x,
+				y: unlerp(page.start_tick, page.end_tick, note.tick + note.hold_tick),
+				direction: page.scan_line_direction,
+				startRef: ref,
+			});
+		}
 
 		addEntity(types[note.type], data, ref);
 	}

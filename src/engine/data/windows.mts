@@ -21,7 +21,7 @@ const drag = 0.1;
 export const windows = {
 	tap: fromSeconds(perfect, great, good),
 	drag: fromSeconds([-drag, perfect], [-drag, great], [-drag, good]),
-	flick: fromSeconds(0.04, 0.1, 0.175),
+	flick: fromSeconds(perfect, great, good),
 	holdStart: fromSeconds([0, perfect], [0, great], [0, good]),
 	holdEnd: fromSeconds([-perfect, 0], [-great, 0], [-good, 0]),
 };

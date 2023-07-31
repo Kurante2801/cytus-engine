@@ -16,3 +16,5 @@ export const noteRadius = 0.3125;
 
 // Seconds until an sfx can play again
 export const minSFXDistance = 0.02;
+
+export const holdBarWidth = 0.1;
