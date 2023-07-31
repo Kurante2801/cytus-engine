@@ -38,6 +38,6 @@ export function animTimes(
 	data.alpha.start = data.spawn;
 	data.alpha.end = data.target + windows.perfect.min;
 
-	data.scale.start = data.target - 3.0;
+	data.scale.start = data.spawn;
 	data.scale.end = data.target + windows.great.min;
 }
