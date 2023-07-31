@@ -1,8 +1,9 @@
 import { EngineConfigurationUI } from "sonolus-core";
 
 export const ui: EngineConfigurationUI = {
+	scope: "Cytus",
 	primaryMetric: "arcade",
-	secondaryMetric: "life",
+	secondaryMetric: "perfectRate",
 	menuVisibility: {
 		scale: 1,
 		alpha: 1,
@@ -25,10 +26,10 @@ export const ui: EngineConfigurationUI = {
 	},
 	judgmentAnimation: {
 		scale: {
-			from: 1,
+			from: 1.15,
 			to: 1,
-			duration: 0,
-			ease: "None",
+			duration: 0.15,
+			ease: "OutCubic",
 		},
 		alpha: {
 			from: 1,
@@ -39,10 +40,10 @@ export const ui: EngineConfigurationUI = {
 	},
 	comboAnimation: {
 		scale: {
-			from: 1,
+			from: 1.15,
 			to: 1,
-			duration: 0,
-			ease: "None",
+			duration: 0.15,
+			ease: "OutCubic",
 		},
 		alpha: {
 			from: 1,
@@ -51,7 +52,7 @@ export const ui: EngineConfigurationUI = {
 			ease: "None",
 		},
 	},
-	judgmentErrorStyle: "none",
+	judgmentErrorStyle: "plus",
 	judgmentErrorPlacement: "both",
 	judgmentErrorMin: 0,
 };
