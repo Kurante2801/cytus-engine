@@ -15,6 +15,7 @@ export enum Layer {
 
 export const scanlineThick = 0.05;
 export const noteRadius = 0.3125;
+export const effectRadius = 0.6;
 
 // Seconds until an sfx can play again
 export const minSFXDistance = 0.02;

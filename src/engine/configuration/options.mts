@@ -1,4 +1,4 @@
-import { NameText } from "sonolus-core";
+import { NameText, UnitText } from "sonolus-core";
 
 export const options = defineOptions({
 	autoplay: {
@@ -67,5 +67,21 @@ export const options = defineOptions({
 		min: 0.75,
 		max: 1.25,
 		step: 0.25,
+	},
+	effectEnabled: {
+		name: NameText.NoteEffect,
+		scope: "Cytus",
+		type: "toggle",
+		def: 1,
+	},
+	effectSize: {
+		name: NameText.NoteEffectSize,
+		scope: "Cytus",
+		type: "slider",
+		def: 1,
+		min: 0.1,
+		max: 2,
+		step: 0.05,
+		unit: UnitText.Percentage,
 	},
 });

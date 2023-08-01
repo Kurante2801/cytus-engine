@@ -1,3 +1,4 @@
+import { Judgment } from "sonolus.js-compiler";
 import { options } from "../../../../configuration/options.mjs";
 import { buckets } from "../../../buckets.mjs";
 import { Direction, noteRadius } from "../../../constants.mjs";
@@ -56,6 +57,8 @@ export class HoldStartNote extends Note {
 			break;
 		}
 	}
+
+	particleEffects(_: Judgment): void {}
 
 	get width(): number {
 		return noteRadius;

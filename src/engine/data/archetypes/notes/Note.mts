@@ -1,5 +1,5 @@
 import { EngineArchetypeDataName } from "sonolus-core";
-import { Direction, Layer, minSFXDistance, noteRadius } from "../../constants.mjs";
+import { Direction, Layer, effectRadius, minSFXDistance, noteRadius } from "../../constants.mjs";
 import { animTimes, getX, getY, getZ } from "../../util.mjs";
 import { options } from "../../../configuration/options.mjs";
 import { skin } from "../../skin.mjs";
@@ -154,10 +154,19 @@ export abstract class Note extends Archetype {
 		return dist <= noteRadius;
 	}
 
-	/* eslint-disable */
-	particleEffects(judgement: Judgment): void {
-		/* eslint-enable */
-		// TODO
+	particleEffects(_: Judgment): void {
+		if (!options.effectEnabled) return;
+		// TODO: judgement text
+
+		const radius = effectRadius * options.effectSize;
+		const layout = new Rect({
+			l: this.pos.x - radius,
+			r: this.pos.x + radius,
+			t: this.pos.y + radius,
+			b: this.pos.y - radius,
+		});
+
+		this.effect.spawn(layout, 0.25, false);
 	}
 
 	soundEffect(judgement: Judgment): void {

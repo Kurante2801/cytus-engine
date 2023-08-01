@@ -1,3 +1,4 @@
+import { Judgment } from "sonolus.js-compiler";
 import { options } from "../../../../configuration/options.mjs";
 import { buckets } from "../../../buckets.mjs";
 import { Direction, Layer, holdBarWidth, holdIndicatorRadius, maxDegree, noteRadius } from "../../../constants.mjs";
@@ -7,6 +8,7 @@ import { animTimes, getY, getZ } from "../../../util.mjs";
 import { windows } from "../../../windows.mjs";
 import { archetypes } from "../../index.mjs";
 import { Note, NoteType } from "../Note.mjs";
+import { scanline } from "../../../shared.mjs";
 
 export class HoldEndNote extends Note {
 	holdData = this.defineData({
@@ -132,6 +134,12 @@ export class HoldEndNote extends Note {
 				break;
 			}
 		}
+	}
+
+	particleEffects(judgement: Judgment): void {
+		// Move the note so the effect plays at the scanline position
+		this.pos.y = scanline.y;
+		super.particleEffects(judgement);
 	}
 
 	get width(): number {
