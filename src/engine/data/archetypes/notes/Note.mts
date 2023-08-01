@@ -10,6 +10,7 @@ export enum NoteType {
 	TAP,
 	HOLD_START,
 	HOLD_END,
+	DRAG,
 }
 
 export abstract class Note extends Archetype {

@@ -133,4 +133,40 @@ export const buckets = defineBuckets({
 			},
 		],
 	},
+	drag: {
+		sprites: [
+			{
+				id: skin.sprites.dragHeadUp.id,
+				x: 0,
+				y: 0,
+				w: 2,
+				h: 2,
+				rotation: 0,
+			},
+			{
+				id: skin.sprites.dragArrow.id,
+				x: 0,
+				y: 0,
+				w: 2,
+				h: 2,
+				rotation: 45,
+			},
+			{
+				id: skin.sprites.dragHeadFallback.id,
+				x: 2,
+				y: 0,
+				w: 2,
+				h: 2,
+				rotation: 0,
+			},
+			{
+				id: skin.sprites.dragArrow.id,
+				x: 2,
+				y: 0,
+				w: 2,
+				h: 2,
+				rotation: 45,
+			},
+		],
+	},
 });

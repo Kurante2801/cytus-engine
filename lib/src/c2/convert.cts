@@ -1,5 +1,5 @@
 import { EngineArchetypeDataName, EngineArchetypeName, LevelDataEntity } from "sonolus-core";
-import { Cytus2Source, Note, NoteType } from "./index.cjs";
+import { Cytus2Source, DragType, Note, NoteType } from "./index.cjs";
 
 export function cytus2toLevelData(chart: Cytus2Source) {
 	const entities: LevelDataEntity[] = [
@@ -74,7 +74,13 @@ export function cytus2toLevelData(chart: Cytus2Source) {
 		return tempo >= 1.367 ? 1 : 1.367 / tempo;
 	};
 
-	const types = ["TapNote", "HoldStartNote", "LongHoldStartNote"];
+	const types = ["TapNote", "HoldStartNote", "LongHoldStartNote", "DragNote", "DragNote", "FlickNote", "TapNote", "DragNote"];
+
+	const dragTypes = {
+		[NoteType.DRAG_HEAD]: DragType.DRAG_HEAD,
+		[NoteType.DRAG_CHILD]: DragType.DRAG_CHILD,
+		[NoteType.TAP_DRAG_CHILD]: DragType.TAP_DRAG_CHILD,
+	};
 
 	for (const note of chart.note_list) {
 		if (note.page_index >= chart.page_list.length || !(note.type in types)) continue;
@@ -90,17 +96,33 @@ export function cytus2toLevelData(chart: Cytus2Source) {
 			speed: note.page_index == 0 ? 1 : calculateNoteSpeed(note),
 		};
 
-		// Spawn a hold end note
-		if (note.type == NoteType.HOLD || note.type == NoteType.HOLD_LONG) {
-			ref = note.id.toString();
+		switch (note.type) {
+			case NoteType.HOLD:
+			case NoteType.HOLD_LONG:
+				ref = note.id.toString();
 
-			addEntity(note.type == NoteType.HOLD ? "HoldEndNote" : "LongHoldEndNote", {
-				[EngineArchetypeDataName.Beat]: tickToTime(note.tick + note.hold_tick),
-				x: note.x,
-				y: unlerp(page.start_tick, page.end_tick, note.tick + note.hold_tick),
-				direction: page.scan_line_direction,
-				startRef: ref,
-			});
+				// Spawn a hold end note that references 'ref'
+				addEntity(note.type == NoteType.HOLD ? "HoldEndNote" : "LongHoldEndNote", {
+					[EngineArchetypeDataName.Beat]: tickToTime(note.tick + note.hold_tick),
+					x: note.x,
+					y: unlerp(page.start_tick, page.end_tick, note.tick + note.hold_tick),
+					direction: page.scan_line_direction,
+					startRef: ref,
+				});
+				break;
+			case NoteType.DRAG_HEAD:
+			case NoteType.DRAG_CHILD:
+			case NoteType.TAP_DRAG_HEAD:
+			case NoteType.TAP_DRAG_CHILD:
+				ref = note.id.toString();
+				data["nextRef"] = note.next_id.toString();
+				data["direction"] = page.scan_line_direction * (note.is_forward ? -1 : 1);
+
+				// Flip direction
+				if (note.is_forward) data["y"] = unlerp(page.end_tick, page.start_tick, note.tick);
+
+				if (note.type !== NoteType.TAP_DRAG_HEAD) data["type"] = dragTypes[note.type];
+				break;
 		}
 
 		addEntity(types[note.type], data, ref);

@@ -13,6 +13,15 @@ export class TapNote extends Note {
 	effect = particle.effects.tap;
 	type = NoteType.TAP;
 
+	// This note may be a Tap Drag Head note
+	dragData = this.defineData({
+		nextRef: { name: "nextRef", type: Number },
+	});
+
+	shared = this.defineSharedMemory({
+		judged: Boolean,
+	});
+
 	preprocess(): void {
 		super.preprocess();
 
@@ -29,6 +38,16 @@ export class TapNote extends Note {
 			this.judge(touch, touch.startTime, true);
 			break;
 		}
+	}
+
+	judge(touch: Touch, time: number, mark: boolean): void {
+		this.shared.judged = true;
+		super.judge(touch, time, mark);
+	}
+
+	judgeMiss(): void {
+		this.shared.judged = true;
+		super.judgeMiss();
 	}
 
 	get width(): number {

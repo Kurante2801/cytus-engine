@@ -5,5 +5,6 @@ export const particle = defineParticle({
 		tap: ParticleEffectName.NoteCircularTapBlue,
 		hold: ParticleEffectName.NoteCircularTapRed,
 		longHold: ParticleEffectName.NoteCircularTapYellow,
+		drag: ParticleEffectName.NoteCircularTapPurple,
 	},
 });

@@ -39,3 +39,10 @@ export type Note = {
 	next_id: number;
 	is_forward: boolean;
 };
+
+export enum DragType {
+	DRAG_HEAD,
+	DRAG_CHILD,
+	TAP_DRAG_HEAD,
+	TAP_DRAG_CHILD,
+}

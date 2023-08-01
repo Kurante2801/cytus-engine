@@ -7,7 +7,9 @@ export type Direction = (typeof Direction)[keyof typeof Direction];
 
 export enum Layer {
 	HOLD_BAR,
+	DRAG_CHILD,
 	NOTE,
+	DRAG_ARROW, // Unused in code
 	JUDGMENT,
 }
 
