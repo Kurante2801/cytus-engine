@@ -34,7 +34,7 @@ export class DragSegment extends SpawnableArchetype({
 	segment = this.entityMemory({
 		start: Quad,
 		end: Quad,
-		z: this.entityMemory(Number),
+		z: Number,
 	});
 
 	initialize(): void {
@@ -79,10 +79,10 @@ export class DragSegment extends SpawnableArchetype({
 		// then we turn the rectangles into quads and rotate them, finally we use them in updateParallel
 		// see: https://wiki.sonolus.com/engine-specs/essentials/graphics.html#quad
 		const thickness = new Rect({
-			l: 0,
-			r: 0,
-			t: 0.01,
-			b: -0.01,
+			l: -0.025,
+			r: 0.025,
+			t: 0,
+			b: 0,
 		})
 			.toQuad()
 			.rotate(this.angle);
@@ -104,20 +104,22 @@ export class DragSegment extends SpawnableArchetype({
 			this.drawNote(this.sprites.end, this.spawnData.endX, this.spawnData.endY, this.spawnData.endZ);
 
 		const t = Math.clamp(Math.unlerp(this.times.start, this.times.end, time.now), 0, 1);
+		const t2 = Math.clamp(Math.unlerp(this.startSpawn, this.times.start, time.now), 0, 0.5) * 2;
+		const alpha = Math.clamp(Math.unlerp(this.startSpawn, this.times.start, time.now), 0, 1) * 0.5;
 
 		// Draw bar
 		const layout = new Quad({
-			x1: Math.lerp(this.segment.start.x1, this.segment.end.x1, t),
-			y1: Math.lerp(this.segment.start.y1, this.segment.end.y1, t),
-			x2: Math.lerp(this.segment.start.x2, this.segment.end.x2, t),
-			y2: Math.lerp(this.segment.start.y2, this.segment.end.y2, t),
-			x3: this.segment.end.x3,
-			y3: this.segment.end.y3,
-			x4: this.segment.end.x4,
-			y4: this.segment.end.y4,
+			x1: Math.lerp(this.segment.start.x1, this.segment.end.x2, t),
+			y1: Math.lerp(this.segment.start.y1, this.segment.end.y2, t),
+			x2: Math.lerp(this.segment.start.x1, this.segment.end.x2, t2),
+			y2: Math.lerp(this.segment.start.y1, this.segment.end.y2, t2),
+			x3: Math.lerp(this.segment.start.x4, this.segment.end.x3, t2),
+			y3: Math.lerp(this.segment.start.y4, this.segment.end.y3, t2),
+			x4: Math.lerp(this.segment.start.x4, this.segment.end.x3, t),
+			y4: Math.lerp(this.segment.start.y4, this.segment.end.y3, t),
 		});
 
-		skin.sprites.holdBar.draw(layout, this.segment.z, 1);
+		skin.sprites.holdBar.draw(layout, this.segment.z, alpha);
 
 		if (time.now < this.times.start) return;
 
@@ -125,7 +127,7 @@ export class DragSegment extends SpawnableArchetype({
 		const y = Math.lerp(this.spawnData.startY, this.spawnData.endY, t);
 
 		this.drawNote(this.sprites.moving, x, y, this.spawnData.startZ);
-		skin.sprites.dragArrow.draw(this.arrowLayout.translate(x, y), this.spawnData.startZ + 1, 1);
+		skin.sprites.dragArrow.draw(this.arrowLayout.translate(x, y), this.spawnData.startZ + 0.0001, 1);
 	}
 
 	drawNote(sprite: SkinSpriteId, x: number, y: number, z: number) {
@@ -157,6 +159,12 @@ export class DragSegment extends SpawnableArchetype({
 		return this.spawnData.startType == DragType.TAP_DRAG_HEAD
 			? archetypes.TapNote.shared.get(this.spawnData.startRef).judged
 			: archetypes.DragNote.shared.get(this.spawnData.startRef).judged;
+	}
+
+	get startSpawn(): number {
+		return this.spawnData.startType == DragType.TAP_DRAG_HEAD
+			? archetypes.TapNote.shared.get(this.spawnData.startRef).spawn
+			: archetypes.DragNote.shared.get(this.spawnData.startRef).spawn;
 	}
 
 	get endShared() {

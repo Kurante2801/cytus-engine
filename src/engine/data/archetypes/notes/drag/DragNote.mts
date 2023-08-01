@@ -32,6 +32,7 @@ export class DragNote extends Note {
 	shared = this.defineSharedMemory({
 		judged: Boolean,
 		sprite: SkinSpriteId,
+		spawn: Number,
 		x: Number,
 		y: Number,
 		z: Number,
@@ -54,6 +55,7 @@ export class DragNote extends Note {
 		}
 
 		this.shared.sprite = this.sprite;
+		this.shared.spawn = this.times.spawn;
 		this.pos.z = getZ(this.dragData.type === DragType.DRAG_HEAD ? Layer.NOTE : Layer.DRAG_CHILD, this.times.target);
 		this.shared.z = this.pos.z;
 	}
@@ -122,8 +124,7 @@ export class DragNote extends Note {
 			.rotate(this.angle)
 			.translate(this.pos.x, this.pos.y);
 
-		// The +1 changes the layer to Layer.DRAG_ARROW
-		skin.sprites.dragArrow.draw(layout, this.pos.z + 1, alpha);
+		skin.sprites.dragArrow.draw(layout, this.pos.z + 0.0001, alpha);
 	}
 
 	get width(): number {

@@ -22,7 +22,7 @@ export function bounce(t: number): number {
 }
 
 export function animTimes(
-	_: NoteType,
+	type: NoteType,
 	speed: number,
 	data: {
 		spawn: number;
@@ -32,8 +32,8 @@ export function animTimes(
 	},
 	windows: JudgmentWindows,
 ) {
-	// TODO: if drag head/child: 1.175f / speed
-	data.spawn = data.target - 1.367 / speed;
+	if (type === NoteType.DRAG) data.spawn = data.target - 1.175 / speed;
+	else data.spawn = data.target - 1.367 / speed;
 
 	data.alpha.start = data.spawn;
 	data.alpha.end = data.target + windows.perfect.min;

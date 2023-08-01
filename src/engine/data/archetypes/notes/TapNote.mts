@@ -23,6 +23,7 @@ export class TapNote extends Note {
 	shared = this.defineSharedMemory({
 		judged: Boolean,
 		sprite: SkinSpriteId,
+		spawn: Number,
 	});
 
 	preprocess(): void {
@@ -32,6 +33,7 @@ export class TapNote extends Note {
 		if (!skin.sprites.exists(this.sprite)) this.sprite = skin.sprites.tapFallback.id;
 
 		this.shared.sprite = this.sprite;
+		this.shared.spawn = this.times.spawn;
 	}
 
 	initialize(): void {
