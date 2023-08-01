@@ -6,6 +6,8 @@ import { Note, NoteType } from "./Note.mjs";
 import { particle } from "../../particle.mjs";
 import { options } from "../../../configuration/options.mjs";
 import { isUsed } from "../InputManager.mjs";
+import { archetypes } from "../index.mjs";
+import { DragType } from "./drag/DragNote.mjs";
 
 export class TapNote extends Note {
 	bucket = buckets.tap;
@@ -20,6 +22,7 @@ export class TapNote extends Note {
 
 	shared = this.defineSharedMemory({
 		judged: Boolean,
+		sprite: SkinSpriteId,
 	});
 
 	preprocess(): void {
@@ -27,6 +30,29 @@ export class TapNote extends Note {
 
 		this.sprite = this.data.direction === Direction.Up ? skin.sprites.tapUp.id : skin.sprites.tapDown.id;
 		if (!skin.sprites.exists(this.sprite)) this.sprite = skin.sprites.tapFallback.id;
+
+		this.shared.sprite = this.sprite;
+	}
+
+	initialize(): void {
+		super.initialize();
+
+		// If this note is a Tap Drag Head, spawn a segment
+		if (this.dragData.nextRef <= 0) return;
+		const next = this.nextShared;
+
+		archetypes.DragSegment.spawn({
+			startRef: this.info.index,
+			endRef: this.dragData.nextRef,
+			startX: this.pos.x,
+			startY: this.pos.y,
+			startZ: this.pos.z,
+			endX: next.x,
+			endY: next.y,
+			endZ: next.z,
+			startType: DragType.TAP_DRAG_HEAD,
+			endType: this.nextDragData.type,
+		});
 	}
 
 	touch(): void {
@@ -56,5 +82,13 @@ export class TapNote extends Note {
 
 	get height(): number {
 		return noteRadius;
+	}
+
+	get nextShared() {
+		return archetypes.DragNote.shared.get(this.dragData.nextRef);
+	}
+
+	get nextDragData() {
+		return archetypes.DragNote.dragData.get(this.dragData.nextRef);
 	}
 }

@@ -41,5 +41,6 @@ export const skin = defineSkin({
 		dragTapChildFallback: SkinSpriteName.NoteTickPurple,
 
 		dragArrow: SkinSpriteName.DirectionalMarkerNeutral,
+		dragSegment: SkinSpriteName.NoteConnectionNeutralSeamless,
 	},
 });

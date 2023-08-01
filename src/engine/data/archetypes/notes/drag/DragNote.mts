@@ -30,19 +30,17 @@ export class DragNote extends Note {
 	angle = this.entityMemory(Number);
 
 	shared = this.defineSharedMemory({
+		judged: Boolean,
+		sprite: SkinSpriteId,
 		x: Number,
 		y: Number,
-		judged: Boolean,
+		z: Number,
 	});
 
 	preprocess(): void {
 		super.preprocess();
 		this.shared.x = this.pos.x;
 		this.shared.y = this.pos.y;
-	}
-
-	initialize(): void {
-		super.initialize();
 
 		if (this.dragData.type === DragType.DRAG_HEAD) {
 			this.sprite = this.data.direction === Direction.Up ? skin.sprites.dragHeadUp.id : skin.sprites.dragHeadDown.id;
@@ -55,11 +53,32 @@ export class DragNote extends Note {
 			if (!skin.sprites.exists(this.sprite)) this.sprite = skin.sprites.dragTapChildFallback.id;
 		}
 
+		this.shared.sprite = this.sprite;
 		this.pos.z = getZ(this.dragData.type === DragType.DRAG_HEAD ? Layer.NOTE : Layer.DRAG_CHILD, this.times.target);
+		this.shared.z = this.pos.z;
+	}
 
-		if (this.dragData.nextRef < 0 || this.dragData.type !== DragType.DRAG_HEAD) return;
+	initialize(): void {
+		super.initialize();
 
+		if (this.dragData.nextRef <= 0) return;
 		const next = this.nextShared;
+
+		archetypes.DragSegment.spawn({
+			startRef: this.info.index,
+			endRef: this.dragData.nextRef,
+			startX: this.pos.x,
+			startY: this.pos.y,
+			startZ: this.pos.z,
+			endX: next.x,
+			endY: next.y,
+			endZ: next.z,
+			startType: this.dragData.type,
+			endType: this.nextDragData.type,
+		});
+
+		if (this.dragData.type !== DragType.DRAG_HEAD) return;
+
 		this.angle = angle(this.pos.x, this.pos.y, next.x, next.y);
 	}
 
@@ -117,5 +136,9 @@ export class DragNote extends Note {
 
 	get nextShared() {
 		return archetypes.DragNote.shared.get(this.dragData.nextRef);
+	}
+
+	get nextDragData() {
+		return archetypes.DragNote.dragData.get(this.dragData.nextRef);
 	}
 }

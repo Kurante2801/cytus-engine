@@ -6,6 +6,7 @@ export const Direction = {
 export type Direction = (typeof Direction)[keyof typeof Direction];
 
 export enum Layer {
+	DRAG_SEGMENT,
 	HOLD_BAR,
 	DRAG_CHILD,
 	NOTE,
