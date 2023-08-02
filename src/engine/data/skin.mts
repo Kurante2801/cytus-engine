@@ -42,5 +42,9 @@ export const skin = defineSkin({
 
 		dragArrow: SkinSpriteName.DirectionalMarkerNeutral,
 		dragSegment: SkinSpriteName.NoteConnectionNeutralSeamless,
+
+		flickUp: "Cytus Flick Up",
+		flickDown: "Cytus Flick Down",
+		flickFallback: SkinSpriteName.NoteHeadGreen,
 	},
 });

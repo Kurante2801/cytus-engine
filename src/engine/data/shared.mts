@@ -5,4 +5,5 @@ export const scanline = levelMemory({
 
 export const note = levelMemory({
 	longHoldBar: SkinSpriteId,
+	flickThreshold: Number,
 });

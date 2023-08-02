@@ -169,4 +169,24 @@ export const buckets = defineBuckets({
 			},
 		],
 	},
+	flick: {
+		sprites: [
+			{
+				id: skin.sprites.tapUp.id,
+				x: 0,
+				y: 0,
+				w: 2,
+				h: 2,
+				rotation: 0,
+			},
+			{
+				id: skin.sprites.tapFallback.id,
+				x: 2,
+				y: 0,
+				w: 2,
+				h: 2,
+				rotation: 0,
+			},
+		],
+	},
 });

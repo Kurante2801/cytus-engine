@@ -6,5 +6,6 @@ export const particle = defineParticle({
 		hold: ParticleEffectName.NoteCircularTapRed,
 		longHold: ParticleEffectName.NoteCircularTapYellow,
 		drag: ParticleEffectName.NoteCircularTapPurple,
+		flick: ParticleEffectName.NoteCircularTapGreen,
 	},
 });
