@@ -27,7 +27,11 @@ export class DragNote extends Note {
 	effect = particle.effects.drag;
 	type = NoteType.DRAG;
 
+	// Angle to rotate the arrow
 	angle = this.entityMemory(Number);
+
+	// // Was this note's sprite changed to a drag child sprite
+	changed = this.entityMemory(Boolean);
 
 	shared = this.defineSharedMemory({
 		judged: Boolean,
@@ -105,11 +109,24 @@ export class DragNote extends Note {
 		super.judgeMiss();
 	}
 
+	act(): void {
+		super.act();
+
+		// To avoid drawing two arrow graphics, change this note's sprite to a child one after its target time
+		if (options.autoplay) return;
+		if (this.dragData.type !== DragType.DRAG_HEAD || time.now < this.times.target || this.changed) return;
+
+		this.changed = true;
+
+		this.sprite = this.data.direction === Direction.Up ? skin.sprites.dragChildUp.id : skin.sprites.dragChildDown.id;
+		if (!skin.sprites.exists(this.sprite)) this.sprite = skin.sprites.dragChildFallback.id;
+	}
+
 	draw(): void {
 		super.draw();
 
 		// Draw arrow
-		if (this.dragData.type !== DragType.DRAG_HEAD) return;
+		if (this.dragData.type !== DragType.DRAG_HEAD || this.changed) return;
 
 		const alpha = Math.min(1, Math.unlerp(this.times.alpha.start, this.times.alpha.end, time.now));
 		const scale = Math.min(1, Math.unlerp(this.times.scale.start, this.times.scale.end, time.now));

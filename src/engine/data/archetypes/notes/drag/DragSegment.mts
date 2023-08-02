@@ -119,7 +119,7 @@ export class DragSegment extends SpawnableArchetype({
 			y4: Math.lerp(this.segment.start.y4, this.segment.end.y3, t),
 		});
 
-		skin.sprites.holdBar.draw(layout, this.segment.z, alpha);
+		skin.sprites.dragSegment.draw(layout, this.segment.z, alpha);
 
 		if (time.now < this.times.start) return;
 

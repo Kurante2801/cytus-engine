@@ -23,7 +23,11 @@ export class HoldEndNote extends Note {
 	startTarget = this.entityMemory(Number);
 	bar = this.entityMemory({ y: Number, z: Number });
 	touched = this.entityMemory(Boolean);
-	indicator = this.entityMemory(SkinSpriteId);
+	indicator = this.entityMemory({
+		sprite: SkinSpriteId,
+		backgroundZ: Number,
+		foregroundZ: Number,
+	});
 
 	preprocess(): void {
 		super.preprocess();
@@ -49,7 +53,9 @@ export class HoldEndNote extends Note {
 		this.times.target = target;
 
 		// It doesn't matter if hold indicator doesn't exist, it will just not get drawn
-		this.indicator = this.data.direction === Direction.Up ? skin.sprites.holdIndicatorUp.id : skin.sprites.holdIndicatorDown.id;
+		this.indicator.sprite = this.data.direction === Direction.Up ? skin.sprites.holdIndicatorUp.id : skin.sprites.holdIndicatorDown.id;
+		this.indicator.backgroundZ = getZ(Layer.HOLD_INDICATOR_BACK, this.times.target);
+		this.indicator.foregroundZ = getZ(Layer.HOLD_INDICATOR_FORE, this.times.target);
 	}
 
 	updateSequential(): void {
@@ -93,8 +99,8 @@ export class HoldEndNote extends Note {
 			b: this.pos.y - holdIndicatorRadius,
 		});
 
-		skin.sprites.holdIndicatorBackground.draw(layout, this.pos.z, 1);
-		skin.sprites.draw(this.indicator, layout, this.pos.z, 1);
+		skin.sprites.holdIndicatorBackground.draw(layout, this.indicator.backgroundZ, 1);
+		skin.sprites.draw(this.indicator.sprite, layout, this.indicator.foregroundZ, 1);
 
 		const t = Math.unlerp(this.times.target, this.startTarget, time.now);
 		const rotatedLayout = new Rect({
@@ -107,7 +113,7 @@ export class HoldEndNote extends Note {
 			.rotate(t * maxDegree)
 			.translate(this.pos.x, this.pos.y);
 
-		skin.sprites.draw(this.indicator, rotatedLayout, this.pos.z, 1);
+		skin.sprites.draw(this.indicator.sprite, rotatedLayout, this.indicator.foregroundZ, 1);
 	}
 
 	drawBar(): void {

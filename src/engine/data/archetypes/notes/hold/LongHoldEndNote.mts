@@ -22,7 +22,7 @@ export class LongHoldEndNote extends HoldEndNote {
 		this.sprite = skin.sprites.longHold.id;
 		if (!skin.sprites.exists(this.sprite)) this.sprite = skin.sprites.longHoldFallback.id;
 
-		this.indicator = skin.sprites.longHoldIndicator.id;
+		this.indicator.sprite = skin.sprites.longHoldIndicator.id;
 	}
 
 	drawBar(): void {

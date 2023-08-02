@@ -11,6 +11,8 @@ export enum Layer {
 	DRAG_CHILD,
 	NOTE,
 	JUDGMENT,
+	HOLD_INDICATOR_BACK,
+	HOLD_INDICATOR_FORE,
 }
 
 export const scanlineThick = 0.05;
