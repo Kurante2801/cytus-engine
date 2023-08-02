@@ -26,5 +26,6 @@ export const minSFXDistance = 0.02;
 export const holdBarWidth = 0.1;
 export const longHoldBarWidth = 0.15;
 export const holdIndicatorRadius = 0.375;
+export const flickArrowRadius = 0.325;
 
 export const maxDegree = Math.PI * 2;

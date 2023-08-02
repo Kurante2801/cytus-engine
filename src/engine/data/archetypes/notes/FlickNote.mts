@@ -1,6 +1,6 @@
 import { options } from "../../../configuration/options.mjs";
 import { buckets } from "../../buckets.mjs";
-import { Direction, flickWidth, noteRadius } from "../../constants.mjs";
+import { Direction, flickArrowRadius, flickWidth, noteRadius } from "../../constants.mjs";
 import { particle } from "../../particle.mjs";
 import { note } from "../../shared.mjs";
 import { skin } from "../../skin.mjs";
@@ -33,10 +33,33 @@ export class FlickNote extends Note {
 		this.fallback = !skin.sprites.exists(this.sprite);
 		if (this.fallback) this.sprite = skin.sprites.flickFallback.id;
 
-		this.inputLayout.l = this.pos.x - this.width;
-		this.inputLayout.r = this.pos.x + this.width;
+		this.inputLayout.l = this.pos.x - flickWidth;
+		this.inputLayout.r = this.pos.x + flickWidth;
 		this.inputLayout.t = this.pos.y + this.height;
 		this.inputLayout.b = this.pos.y - this.height;
+	}
+
+	draw(): void {
+		super.draw();
+
+		// Draw flick arrows to indicate this note is a flick note
+		if (!this.fallback) return;
+
+		const alpha = Math.min(1, Math.unlerp(this.times.alpha.start, this.times.alpha.end, time.now));
+		const scale = Math.min(1, Math.unlerp(this.times.scale.start, this.times.scale.end, time.now));
+
+		const layout = new Rect({
+			l: -flickArrowRadius * scale,
+			r: flickArrowRadius * scale,
+			t: flickArrowRadius * scale,
+			b: -flickArrowRadius * scale,
+		}).toQuad();
+
+		const right = layout.rotate(-Math.PI * 0.5).translate(this.pos.x + this.width * scale, this.pos.y);
+		const left = layout.rotate(Math.PI * 0.5).translate(this.pos.x - this.width * scale, this.pos.y);
+
+		skin.sprites.flickArrow.draw(right, this.pos.z + 0.0001, alpha);
+		skin.sprites.flickArrow.draw(left, this.pos.z + 0.0001, alpha);
 	}
 
 	isTouching(x: number, y: number): boolean {
