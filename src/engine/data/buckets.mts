@@ -149,7 +149,7 @@ export const buckets = defineBuckets({
 				y: 0,
 				w: 2,
 				h: 2,
-				rotation: 45,
+				rotation: -45,
 			},
 			{
 				id: skin.sprites.dragHeadFallback.id,
@@ -165,23 +165,23 @@ export const buckets = defineBuckets({
 				y: 0,
 				w: 2,
 				h: 2,
-				rotation: 45,
+				rotation: -45,
 			},
 		],
 	},
 	flick: {
 		sprites: [
 			{
-				id: skin.sprites.tapUp.id,
+				id: skin.sprites.flickUp.id,
 				x: 0,
 				y: 0,
-				w: 2,
+				w: 3.0625,
 				h: 2,
 				rotation: 0,
 			},
 			{
-				id: skin.sprites.tapFallback.id,
-				x: 2,
+				id: skin.sprites.flickFallback.id,
+				x: 3.0625,
 				y: 0,
 				w: 2,
 				h: 2,
