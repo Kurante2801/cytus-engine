@@ -128,6 +128,15 @@ export class HoldEndNote extends Note {
 		});
 
 		skin.sprites.holdBar.draw(layout, this.bar.z, alpha);
+
+		// Draw colored bar
+		if (time.now <= this.startTarget) return;
+
+		const progress = Math.unlerp(this.startTarget, this.times.target, time.now);
+		layout.t = Math.lerp(this.pos.y, this.bar.y, progress);
+
+		if (this.data.direction === Direction.Up) skin.sprites.holdBarUp.draw(layout, this.bar.z - 0.0001, 1);
+		else skin.sprites.holdBarDown.draw(layout, this.bar.z - 0.0001, 1);
 	}
 
 	touch(): void {
