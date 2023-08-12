@@ -1,9 +1,9 @@
-import { Touch } from "sonolus.js-compiler";
+import { Judgment, Touch } from "sonolus.js-compiler";
 import { Note, NoteType } from "../Note.mjs";
 import { buckets } from "../../../buckets.mjs";
 import { windows } from "../../../windows.mjs";
 import { particle } from "../../../particle.mjs";
-import { Direction, Layer, noteRadius } from "../../../constants.mjs";
+import { Direction, Layer, effectRadius, noteRadius } from "../../../constants.mjs";
 import { options } from "../../../../configuration/options.mjs";
 import { angle, getZ } from "../../../util.mjs";
 import { archetypes } from "../../index.mjs";
@@ -142,6 +142,20 @@ export class DragNote extends Note {
 			.translate(this.pos.x, this.pos.y);
 
 		skin.sprites.dragArrow.draw(layout, this.pos.z + 0.0001, alpha);
+	}
+
+	particleEffects(judgment: Judgment): void {
+		if (this.dragData.type !== DragType.TAP_DRAG_CHILD) return super.particleEffects(judgment);
+
+		const radius = effectRadius * options.effectSize;
+		const layout = new Rect({
+			l: this.pos.x - radius,
+			r: this.pos.x + radius,
+			t: this.pos.y + radius,
+			b: this.pos.y - radius,
+		});
+
+		particle.effects.tap.spawn(layout, 0.25, false);
 	}
 
 	get width(): number {
